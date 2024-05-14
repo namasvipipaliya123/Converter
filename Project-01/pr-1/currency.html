@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currancy Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="converter.js"></script>
+</head>
+<body>
+    <div class="container-1" style="width: 850px;">
+        <header>
+            <h1>Currancy converter<div class="border"></div></h1>
+            
+        </header>
+        <main>
+            <div class="currancy flex">
+               <div>
+                <h4>USD :  <input type="text" id="usd">
+                </h4>
+               </div>
+                <h3 id="ot-ind"></h3>
+                <div>
+                    <input type="button" value="USD to IND" onclick="ind()" class="button">
+                </div>
+                <br><br>
+            </div>
+            <hr>
+            <div class="currancy flex">
+                <div>
+                    <h4>IND : <input type="text" id="ind"></h4>
+                </div>
+                <h3 id="ot-usd"></h3>
+                <div>
+                    <input type="button" value="IND to USD" onclick="usd()" class="button">
+                </div>
+                <br><br>
+            </div>
+            <hr>
+            <div class="currancy flex">
+               <div>
+                <h4>EUR : <input type="text" id="eur">
+                </h4>
+               </div>
+                <h3 id="op-usd"></h3>
+                <div>
+                    <input type="button" value="EUR to USD" onclick="eur()" class="button">
+                </div>
+                <br><br>
+            </div>
+            <hr>
+            <div class="currancy flex">
+               <div>
+                <h4>CAD : <input type="text" id="cad">
+                </h4>
+               </div>
+                <h3 id="ot-eur"></h3>
+                <div>
+                    <input type="button" value="CAD to EUR" onclick="cad()" class="button">
+                </div>
+                <br><br>
+            </div>
+            <hr>
+            <div>
+                <a href="index.html"><button class="button" role="button">Go Home</button></a>
+            <a href="distance.html"><button class="button" role="button">distance</button></a>
+            <a href="temprature.html"><button class="button" role="button">temprature</button></a>
+            </div>
+        </main>
+        <br>
+     </div>
+</body>
+</html>
